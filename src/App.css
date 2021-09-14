@@ -17,6 +17,7 @@
 }
 
 .services {
+  background-color: thistle;
   /* background-image: url('/Users/joshrai/Dropbox/Flatiron Bootcamp Prep/Career Coaching/Weekly Projects/2021-09-13-JS-Website-Fully-Responsive/fully-responsive-jswebsite/public/images/img-2.jpeg'); */
   background-position: center;
   background-size: cover;
@@ -26,6 +27,7 @@
 }
 
 .products {
+  background-color: teal;
   /* background-image: url('/Users/joshrai/Dropbox/Flatiron Bootcamp Prep/Career Coaching/Weekly Projects/2021-09-13-JS-Website-Fully-Responsive/fully-responsive-jswebsite/public/images/img-1.jpeg'); */
   background-position: center;
   background-size: fill;
@@ -35,6 +37,7 @@
 }
 
 .sign-up {
+  background-color: sienna;
   /* background-image: url('/Users/joshrai/Dropbox/Flatiron Bootcamp Prep/Career Coaching/Weekly Projects/2021-09-13-JS-Website-Fully-Responsive/fully-responsive-jswebsite/public/images/img-8.jpeg'); */
   background-position: center;
   background-size: cover;
