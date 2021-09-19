@@ -2,11 +2,15 @@ import React from 'react';
 import '../App.css';
 import { Button } from './Button';
 import './Hero.css';
-
+// import vid1 from '../videos/video-1.mp4';
+import img1 from '../images/img-1.jpg';
+// 2021-09-26 added image to the hero container
 function Hero() {
   return (
     <div className='hero-container'>
-      <video src='/videos/video-1.mp4' autoPlay loop muted />
+    <img scr={img1} />
+      {/* <video src={vid1} autoPlay loop muted /> */}
+      {/* <video src='/videos/video-1.mp4' autoPlay loop muted /> */}
       <h1>ADVENTURE AWAITS</h1>
       <p>What are you waiting for?</p>
       <div className='hero-btns'>
