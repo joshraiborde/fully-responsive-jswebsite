@@ -15,17 +15,20 @@
   justify-content: center;
   font-size: 3rem;
 }
-
+.home {
+  
+}
+/* 2021-09-16 fix the services background */
 .services {
-  background-color: blue;
-  /* background-image: url("./images/img-2.jpg"); */
+  background-color: thistle;
+  background-image: url("./images/img-2.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   color: #fff;
   font-size: 100px;
 }
-
+/* 2021-09-16 fix the products background */
 .products {
   background-color: teal;
   background-image: url("./images/img-1.jpg");
@@ -35,7 +38,7 @@
   color: #fff;
   font-size: 100px;
 }
-
+/* 2021-09-16 fix the signup background */
 .sign-up {
   background-color: sienna;
   background-image: url("./images/img-8.jpg");
@@ -44,4 +47,5 @@
   background-repeat: no-repeat;
   color: #fff;
   font-size: 100px;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
 }
