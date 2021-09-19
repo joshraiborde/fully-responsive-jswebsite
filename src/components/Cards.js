@@ -1,10 +1,10 @@
 import React from 'react';
 import './Cards.css';
 import CardItem from './CardItem';
-import img1 from './images/img-1.jpg';
-import img2 from './images/img-2.jpg';
-import img8 from './images/img-8.jpg';
-
+import img1 from '../images/img-1.jpg';
+import img2 from '../images/img-2.jpg';
+import img8 from '../images/img-8.jpg'; 
+// 2021-09-26 added images
 function Cards() {
   return (
     <div className='cards'>
